@@ -9,13 +9,13 @@
 }
 
 .cover {
-  width: 1500px;
+  width: 1430px;
   margin: 0 auto;
 }
 
 .upper {
   height: 700px;
-  width: 80%;
+  width: 100%;
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05)), url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') 0 100% no-repeat;
   background-size: 100%;
 }
@@ -25,22 +25,22 @@
   align-items: center;
   justify-content: center;
   flex-flow: row;
-  padding-bottom: 80px;
+  padding-bottom: 88px;
   z-index: 2;
   transform: scaleY(-1);
 }
 
 .button-first {
   background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 0 0 no-repeat;
-  width: 1000px;
-  height: 40px;
+  width: 103px;
+  height: 38px;
   border: none;
 }
 
 .button {
   background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 0 0 no-repeat;
-  width: 1000px;
-  height: 40px;
+  width: 103px;
+  height: 35px;
   border: none;
 }
 
@@ -64,30 +64,43 @@
   color: #ffff;
   background-color: transparent;
   border: none;
+  margin-top: 2px;
+  margin-left: 38px;
+  width: 100px;
 }
 
 .main-logo {
   width: 100%;
   height: 100%;
   background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+  margin-top: -6px;
+  transform: scaleY(-1);
 }
 
 .store-logo {
   background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 30% no-repeat;
   width: 100%;
   height: 100%;
+  margin-top: -4px;
+  margin-left: -28px;
+  transform: scaleY(-1);
 }
 
 .mac-logo {
   background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 15% no-repeat;
   width: 100%;
   height: 100%;
+  margin-top: -4px;
+  margin-left: -30px;
+  transform: scaleY(-1);
 }
 
 .ipod-logo {
   background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 45% no-repeat;
   width: 100%;
   height: 100%;
+  margin-top: -5px;
+  margin-left: -30px;
   transform: scaleY(-1);
 }
 
@@ -95,6 +108,8 @@
   background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 60% no-repeat;
   width: 100%;
   height: 100%;
+  margin-top: -8px;
+  margin-left: -30px;
   transform: scaleY(-1);
 }
 
@@ -102,6 +117,8 @@
   background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 75% no-repeat;
   width: 100%;
   height: 100%;
+  margin-top: -8px;
+  margin-left: -30px;
   transform: scaleY(-1);
 }
 
@@ -109,6 +126,8 @@
   background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 90% no-repeat;
   width: 100%;
   height: 100%;
+  margin-top: -8px;
+  margin-left: -30px;
   transform: scaleY(-1);
 }
 
@@ -116,6 +135,8 @@
   background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') 0 105% no-repeat;
   width: 100%;
   height: 100%;
+  margin-top: -8px;
+  margin-left: -30px;
   transform: scaleY(-1);
 }
 
@@ -162,6 +183,7 @@
   text-align: center;
   align-items: center;
   justify-content: space-between;
+  margin: 20px 0 14px;
 }
 
 .flag {
