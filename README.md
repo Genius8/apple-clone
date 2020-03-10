@@ -2,7 +2,7 @@
 
 This is a project designed to better practice positioning, backgrounds and gradients.
 
-![Screenshot]()
+![Screenshot](https://postimg.cc/MvV8m4M7)
 
 Additional description about the project and its features.
 

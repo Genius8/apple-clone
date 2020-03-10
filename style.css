@@ -143,18 +143,24 @@
 .text {
   width: 980px;
   margin: 0 auto;
-  margin-top: 110px;  
+  margin-top: 110px;
 }
 
 .first-text {
+  color: #ffff;
   width: 980px;
-  height: 100px;
+  height: 80px;
+  font-size: 580%;
+  text-align: center;
 }
 
 .second-text {
+  text-align: center;
+  color: #ffff;
   width: 980px;
-  height: 80px; 
-  margin-top: -30px; 
+  height: 50px;
+  font-size: 150%;
+  margin-top: -30px;
 }
 
 .para {
@@ -181,12 +187,12 @@ li {
 
 .foot {
   width: 980px;
-  height: 68px;
-  margin: 0 auto; 
+  height: 20px;
+  margin: 0 auto;
 }
 
 .first-foot {
-  display: flex; 
+  display: flex;
   text-align: center;
   align-items: center;
   justify-content: space-between;
@@ -197,8 +203,10 @@ li {
   display: inline-flex;
   align-items: center;
 }
+
 .foot-links {
-  display: inline-flex;
+  align-content: space-between;
+  display: flex;
 }
 
 .flag {
