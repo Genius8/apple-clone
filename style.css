@@ -176,6 +176,7 @@ li {
   display: inline-block;
   position: relative;
   width: 350px;
+  height: 16px;
 }
 
 .foot {
@@ -192,9 +193,20 @@ li {
   margin: 20px 0 14px;
 }
 
+.wrap {
+  display: inline-flex;
+  align-items: center;
+}
+.foot-links {
+  display: inline-flex;
+}
+
 .flag {
   width: 14px;
   height: 14px;
   margin-left: 2px;
 }
 
+a {
+  color: blue;
+}
