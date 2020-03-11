@@ -214,12 +214,15 @@ li {
 }
 
 .foot-links {
-  align-content: space-between;
-  display: flex;
+  display: inline-block;
+  flex-direction: row;
   margin: 0 3px;
   padding-right: 5px;
   border-right: 1px solid #ccc;
   justify-content: center;
+  position: relative;
+  bottom: 1rem;
+  left: 37rem;
 }
 
 .flag {
