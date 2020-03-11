@@ -76,10 +76,11 @@
   height: 100%;
   background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
   margin-top: -2px;
-  transform: scaleY(1);
+  transform: scaleY(-1);
   border: none;
   padding-top: 0.2rem;
   font-size: 3rem;
+  color: #ffff;
 }
 
 .store-logo {
@@ -183,6 +184,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2px;
+  width: auto;
 }
 
 li {
@@ -208,9 +210,9 @@ li {
 }
 
 .wrap {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
-  align-content: space-between;
+  position: relative;
 }
 
 .foot-links {
