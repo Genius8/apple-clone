@@ -79,7 +79,8 @@
   transform: scaleY(-1);
   border: none;
   padding-top: 0.2rem;
-  font-size: 3rem;
+  padding-left: 4rem;
+  font-size: 0.5rem;
   color: #ffff;
 }
 
@@ -206,6 +207,7 @@
   align-items: center;
   justify-content: space-around;
   margin: 20px 0 14px;
+  padding-left: 20rem;
 }
 
 .wrap {
@@ -221,18 +223,18 @@
 .foot-links {
   display: flex;
   flex-direction: row;
-  margin: 40px 0 3px;
+  margin: 9px 30px 1px;
   padding-right: 5px;
   border-right: 1px solid #ccc;
-  justify-content: center;
+  justify-content: left;
   position: relative;
   bottom: 1rem;
-  left: 37rem;
+  left: 65rem;
 }
 
 .bottom-foot {
   position: relative;
-  margin: 1px 0 14px;
+  margin: 60px 200px 14px;
 }
 
 .flag {
