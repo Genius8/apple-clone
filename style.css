@@ -35,8 +35,8 @@
   width: 103px;
   height: 38px;
   border: none;
-  padding-top: 0.2rem;
-  font-size: 3rem;
+  padding-top: 0.8rem;
+  font-size: 2rem;
 }
 
 .button {
@@ -78,7 +78,7 @@
   margin-top: -2px;
   transform: scaleY(-1);
   border: none;
-  padding-top: 0.2rem;
+  padding-top: -1rem;
   padding-left: 4rem;
   font-size: 0.5rem;
   color: #ffff;
@@ -193,8 +193,6 @@
 }
 
 .foot {
-  width: 980px;
-  height: 70px;
   margin: 0 auto;
   position: absolute;
   column-count: 2;
@@ -225,7 +223,6 @@
   flex-direction: row;
   margin: 9px 30px 1px;
   padding-right: 5px;
-  border-right: 1px solid #ccc;
   justify-content: left;
   position: relative;
   bottom: 1rem;
@@ -241,6 +238,7 @@
   width: 12px;
   height: 12px;
   margin-left: 2px;
+  border-right: 1px solid #ccc;
 }
 
 a {
