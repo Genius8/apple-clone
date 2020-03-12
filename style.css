@@ -196,6 +196,8 @@
   height: 70px;
   margin: 0 auto;
   position: absolute;
+  column-count: 2;
+  column-gap: 3em;
 }
 
 .first-foot {
@@ -207,15 +209,19 @@
 }
 
 .wrap {
-  display: inline-block;
+  display: list-item;
   align-items: center;
   position: relative;
+  margin: 0 auto;
+  column-gap: 4em;
+  column-count: auto;
+  column-rule: 3px solid #ccc;
 }
 
 .foot-links {
   display: flex;
   flex-direction: row;
-  margin: 0 3px;
+  margin: 40px 0 3px;
   padding-right: 5px;
   border-right: 1px solid #ccc;
   justify-content: center;
@@ -224,9 +230,14 @@
   left: 37rem;
 }
 
+.bottom-foot {
+  position: relative;
+  margin: 1px 0 14px;
+}
+
 .flag {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   margin-left: 2px;
 }
 
